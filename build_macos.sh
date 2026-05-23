@@ -29,7 +29,7 @@ cp -R "dist/${APP_NAME}.app" "${PACKAGE_DIR}/"
 cp README_FIRST_MAC.txt "${PACKAGE_DIR}/"
 cp MAC_USER_GUIDE.txt "${PACKAGE_DIR}/"
 
-(cd "${PACKAGE_DIR}" && ditto -c -k --sequesterRsrc --keepParent "${APP_NAME}.app" "../dist/${APP_NAME}-macOS.zip")
+(cd "${PACKAGE_DIR}" && ditto -c -k --sequesterRsrc . "../dist/${APP_NAME}-macOS.zip")
 hdiutil create \
   -volname "${APP_NAME}" \
   -srcfolder "${PACKAGE_DIR}" \
