@@ -2,6 +2,7 @@ ScoreCapture macOS 처음 실행
 
 이 안내문은 배포 파일 안에 들어 있습니다.
 같은 폴더에 있는 ScoreCapture.app을 실행하세요.
+자세한 설명은 MAC_USER_GUIDE.txt를 보세요.
 
 1. ScoreCapture.app을 실행하세요.
 2. 화면 기록 권한을 묻거나 설정이 열리면 ScoreCapture를 허용하세요.
