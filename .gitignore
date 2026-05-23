@@ -5,6 +5,12 @@ __pycache__/
 # Virtual Environment
 venv/
 .venv/
+.venv-build-macos/
+
+# Build outputs
+build/
+dist/
+*.spec
 
 # IDE specific
 .idea/
